@@ -164,7 +164,7 @@ public class Bot : MonoBehaviour
             {
                 Wander();
             }
-            if (CanSeeTarget() && TargetCanSeeMe())
+            else if (CanSeeTarget() && TargetCanSeeMe())
             {
                 CleverHide();
                 coolDown = true;
